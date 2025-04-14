@@ -1,0 +1,58 @@
+{
+   "answers": {
+      "request 0": {
+         "relevance": [
+            {
+               "DocId": 2,
+               "relative": 0.5987978577613831
+            },
+            {
+               "DocId": 1,
+               "relative": 0.586776852607727
+            },
+            {
+               "DocId": 0,
+               "relative": 0.4545454680919647
+            }
+         ],
+         "result": true
+      },
+      "request 1": {
+         "relevance": [
+            {
+               "DocId": 2,
+               "relative": 1.0221776962280273
+            },
+            {
+               "DocId": 0,
+               "relative": 0.1995992809534073
+            },
+            {
+               "DocId": 1,
+               "relative": 0.06653309613466263
+            }
+         ],
+         "result": true
+      },
+      "request 2": {
+         "result": false
+      },
+      "request 3": {
+         "relevance": [
+            {
+               "DocId": 1,
+               "relative": 0.5625
+            },
+            {
+               "DocId": 2,
+               "relative": 0.390625
+            },
+            {
+               "DocId": 0,
+               "relative": 0.25
+            }
+         ],
+         "result": true
+      }
+   }
+}

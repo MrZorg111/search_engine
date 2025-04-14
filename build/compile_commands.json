@@ -1,0 +1,56 @@
+[
+{
+  "directory": "C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/build/_deps/googletest-build/googlemock",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/gmock.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gmock.dir\\src\\gmock-all.cc.obj -c C:\\Users\\ED\\Documents\\My_Programs\\Great_Project\\search_engine\\build\\_deps\\googletest-src\\googlemock\\src\\gmock-all.cc",
+  "file": "C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/build/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj"
+},
+{
+  "directory": "C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/build/_deps/googletest-build/googlemock",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/gmock_main.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gmock_main.dir\\src\\gmock_main.cc.obj -c C:\\Users\\ED\\Documents\\My_Programs\\Great_Project\\search_engine\\build\\_deps\\googletest-src\\googlemock\\src\\gmock_main.cc",
+  "file": "C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/build/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj"
+},
+{
+  "directory": "C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/build/_deps/googletest-build/googletest",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/gtest.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gtest.dir\\src\\gtest-all.cc.obj -c C:\\Users\\ED\\Documents\\My_Programs\\Great_Project\\search_engine\\build\\_deps\\googletest-src\\googletest\\src\\gtest-all.cc",
+  "file": "C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/build/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "output": "_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj"
+},
+{
+  "directory": "C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/build/_deps/googletest-build/googletest",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/gtest_main.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gtest_main.dir\\src\\gtest_main.cc.obj -c C:\\Users\\ED\\Documents\\My_Programs\\Great_Project\\search_engine\\build\\_deps\\googletest-src\\googletest\\src\\gtest_main.cc",
+  "file": "C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/build/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "output": "_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj"
+},
+{
+  "directory": "C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/build/src",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/search_engine.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\search_engine.dir\\main.cpp.obj -c C:\\Users\\ED\\Documents\\My_Programs\\Great_Project\\search_engine\\src\\main.cpp",
+  "file": "C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/src/main.cpp",
+  "output": "src/CMakeFiles/search_engine.dir/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/build/src",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/search_engine.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\search_engine.dir\\converterjson.cpp.obj -c C:\\Users\\ED\\Documents\\My_Programs\\Great_Project\\search_engine\\src\\converterjson.cpp",
+  "file": "C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/src/converterjson.cpp",
+  "output": "src/CMakeFiles/search_engine.dir/converterjson.cpp.obj"
+},
+{
+  "directory": "C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/build/src",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/search_engine.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\search_engine.dir\\invertedindex.cpp.obj -c C:\\Users\\ED\\Documents\\My_Programs\\Great_Project\\search_engine\\src\\invertedindex.cpp",
+  "file": "C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/src/invertedindex.cpp",
+  "output": "src/CMakeFiles/search_engine.dir/invertedindex.cpp.obj"
+},
+{
+  "directory": "C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/build/src",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/search_engine.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\search_engine.dir\\searchserver.cpp.obj -c C:\\Users\\ED\\Documents\\My_Programs\\Great_Project\\search_engine\\src\\searchserver.cpp",
+  "file": "C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/src/searchserver.cpp",
+  "output": "src/CMakeFiles/search_engine.dir/searchserver.cpp.obj"
+},
+{
+  "directory": "C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/build/src",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/search_engine.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\search_engine.dir\\__\\tests\\test.cpp.obj -c C:\\Users\\ED\\Documents\\My_Programs\\Great_Project\\search_engine\\tests\\test.cpp",
+  "file": "C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/tests/test.cpp",
+  "output": "src/CMakeFiles/search_engine.dir/__/tests/test.cpp.obj"
+}
+]
