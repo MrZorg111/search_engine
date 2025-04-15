@@ -39,7 +39,4 @@ public:
     //Возвращает общее кол-во документов
     int GetNumberDocument();
 
-    //Возвращает статус freq_dictionary, пуст/нет
-    //void GetStatFreq();
-
 };
