@@ -81,6 +81,9 @@ CMakeFiles/googletest-populate-complete: googletest-populate-prefix/src/googlete
 	P:\CMake\bin\cmake.exe -E touch C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate-complete
 	P:\CMake\bin\cmake.exe -E touch C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done
 
+googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update:
+.PHONY : googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update
+
 googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build: googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build\_deps\googletest-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No build step for 'googletest-populate'"
 	cd /d C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build\_deps\googletest-build && P:\CMake\bin\cmake.exe -E echo_append
@@ -92,13 +95,10 @@ googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-con
 	cd /d C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build\_deps\googletest-build && P:\CMake\bin\cmake.exe -E echo_append
 	cd /d C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build\_deps\googletest-build && P:\CMake\bin\cmake.exe -E touch C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure
 
-googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download: googletest-populate-prefix/src/googletest-populate-stamp/download-googletest-populate.cmake
-googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download: googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-urlinfo.txt
+googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download: googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-gitinfo.txt
 googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download: googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build\_deps\googletest-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (download, verify and extract) for 'googletest-populate'"
-	cd /d C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build\_deps && P:\CMake\bin\cmake.exe -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/download-googletest-populate.cmake
-	cd /d C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build\_deps && P:\CMake\bin\cmake.exe -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/verify-googletest-populate.cmake
-	cd /d C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build\_deps && P:\CMake\bin\cmake.exe -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/extract-googletest-populate.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build\_deps\googletest-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (git clone) for 'googletest-populate'"
+	cd /d C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build\_deps && P:\CMake\bin\cmake.exe -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/build/_deps/googletest-subbuild/googletest-populate-prefix/tmp/googletest-populate-gitclone.cmake
 	cd /d C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build\_deps && P:\CMake\bin\cmake.exe -E touch C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download
 
 googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install: googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build
@@ -117,16 +117,19 @@ googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-pat
 	P:\CMake\bin\cmake.exe -E echo_append
 	P:\CMake\bin\cmake.exe -E touch C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch
 
+googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update:
+.PHONY : googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update
+
 googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test: googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build\_deps\googletest-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No test step for 'googletest-populate'"
 	cd /d C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build\_deps\googletest-build && P:\CMake\bin\cmake.exe -E echo_append
 	cd /d C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build\_deps\googletest-build && P:\CMake\bin\cmake.exe -E touch C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test
 
+googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update: googletest-populate-prefix/tmp/googletest-populate-gitupdate.cmake
 googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update: googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update-info.txt
 googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update: googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build\_deps\googletest-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "No update step for 'googletest-populate'"
-	P:\CMake\bin\cmake.exe -E echo_append
-	P:\CMake\bin\cmake.exe -E touch C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build\_deps\googletest-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Performing update step for 'googletest-populate'"
+	cd /d C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build\_deps\googletest-src && P:\CMake\bin\cmake.exe -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/build/_deps/googletest-subbuild/googletest-populate-prefix/tmp/googletest-populate-gitupdate.cmake
 
 CMakeFiles/googletest-populate.dir/codegen:
 .PHONY : CMakeFiles/googletest-populate.dir/codegen

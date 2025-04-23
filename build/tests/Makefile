@@ -170,6 +170,164 @@ depend:
 	cd /d C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
+# Convenience name for target.
+tests/CMakeFiles/GtestTests.dir/rule:
+	cd /d C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tests/CMakeFiles/GtestTests.dir/rule
+.PHONY : tests/CMakeFiles/GtestTests.dir/rule
+
+# Convenience name for target.
+GtestTests: tests/CMakeFiles/GtestTests.dir/rule
+.PHONY : GtestTests
+
+# fast build rule for target.
+GtestTests/fast:
+	cd /d C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\GtestTests.dir\build.make tests/CMakeFiles/GtestTests.dir/build
+.PHONY : GtestTests/fast
+
+ConverterJSON_test.obj: ConverterJSON_test.cpp.obj
+.PHONY : ConverterJSON_test.obj
+
+# target to build an object file
+ConverterJSON_test.cpp.obj:
+	cd /d C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\GtestTests.dir\build.make tests/CMakeFiles/GtestTests.dir/ConverterJSON_test.cpp.obj
+.PHONY : ConverterJSON_test.cpp.obj
+
+ConverterJSON_test.i: ConverterJSON_test.cpp.i
+.PHONY : ConverterJSON_test.i
+
+# target to preprocess a source file
+ConverterJSON_test.cpp.i:
+	cd /d C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\GtestTests.dir\build.make tests/CMakeFiles/GtestTests.dir/ConverterJSON_test.cpp.i
+.PHONY : ConverterJSON_test.cpp.i
+
+ConverterJSON_test.s: ConverterJSON_test.cpp.s
+.PHONY : ConverterJSON_test.s
+
+# target to generate assembly for a file
+ConverterJSON_test.cpp.s:
+	cd /d C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\GtestTests.dir\build.make tests/CMakeFiles/GtestTests.dir/ConverterJSON_test.cpp.s
+.PHONY : ConverterJSON_test.cpp.s
+
+InvertedIndex_test.obj: InvertedIndex_test.cpp.obj
+.PHONY : InvertedIndex_test.obj
+
+# target to build an object file
+InvertedIndex_test.cpp.obj:
+	cd /d C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\GtestTests.dir\build.make tests/CMakeFiles/GtestTests.dir/InvertedIndex_test.cpp.obj
+.PHONY : InvertedIndex_test.cpp.obj
+
+InvertedIndex_test.i: InvertedIndex_test.cpp.i
+.PHONY : InvertedIndex_test.i
+
+# target to preprocess a source file
+InvertedIndex_test.cpp.i:
+	cd /d C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\GtestTests.dir\build.make tests/CMakeFiles/GtestTests.dir/InvertedIndex_test.cpp.i
+.PHONY : InvertedIndex_test.cpp.i
+
+InvertedIndex_test.s: InvertedIndex_test.cpp.s
+.PHONY : InvertedIndex_test.s
+
+# target to generate assembly for a file
+InvertedIndex_test.cpp.s:
+	cd /d C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\GtestTests.dir\build.make tests/CMakeFiles/GtestTests.dir/InvertedIndex_test.cpp.s
+.PHONY : InvertedIndex_test.cpp.s
+
+SearchServer_test.obj: SearchServer_test.cpp.obj
+.PHONY : SearchServer_test.obj
+
+# target to build an object file
+SearchServer_test.cpp.obj:
+	cd /d C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\GtestTests.dir\build.make tests/CMakeFiles/GtestTests.dir/SearchServer_test.cpp.obj
+.PHONY : SearchServer_test.cpp.obj
+
+SearchServer_test.i: SearchServer_test.cpp.i
+.PHONY : SearchServer_test.i
+
+# target to preprocess a source file
+SearchServer_test.cpp.i:
+	cd /d C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\GtestTests.dir\build.make tests/CMakeFiles/GtestTests.dir/SearchServer_test.cpp.i
+.PHONY : SearchServer_test.cpp.i
+
+SearchServer_test.s: SearchServer_test.cpp.s
+.PHONY : SearchServer_test.s
+
+# target to generate assembly for a file
+SearchServer_test.cpp.s:
+	cd /d C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\GtestTests.dir\build.make tests/CMakeFiles/GtestTests.dir/SearchServer_test.cpp.s
+.PHONY : SearchServer_test.cpp.s
+
+__/src/converterjson.obj: __/src/converterjson.cpp.obj
+.PHONY : __/src/converterjson.obj
+
+# target to build an object file
+__/src/converterjson.cpp.obj:
+	cd /d C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\GtestTests.dir\build.make tests/CMakeFiles/GtestTests.dir/__/src/converterjson.cpp.obj
+.PHONY : __/src/converterjson.cpp.obj
+
+__/src/converterjson.i: __/src/converterjson.cpp.i
+.PHONY : __/src/converterjson.i
+
+# target to preprocess a source file
+__/src/converterjson.cpp.i:
+	cd /d C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\GtestTests.dir\build.make tests/CMakeFiles/GtestTests.dir/__/src/converterjson.cpp.i
+.PHONY : __/src/converterjson.cpp.i
+
+__/src/converterjson.s: __/src/converterjson.cpp.s
+.PHONY : __/src/converterjson.s
+
+# target to generate assembly for a file
+__/src/converterjson.cpp.s:
+	cd /d C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\GtestTests.dir\build.make tests/CMakeFiles/GtestTests.dir/__/src/converterjson.cpp.s
+.PHONY : __/src/converterjson.cpp.s
+
+__/src/invertedindex.obj: __/src/invertedindex.cpp.obj
+.PHONY : __/src/invertedindex.obj
+
+# target to build an object file
+__/src/invertedindex.cpp.obj:
+	cd /d C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\GtestTests.dir\build.make tests/CMakeFiles/GtestTests.dir/__/src/invertedindex.cpp.obj
+.PHONY : __/src/invertedindex.cpp.obj
+
+__/src/invertedindex.i: __/src/invertedindex.cpp.i
+.PHONY : __/src/invertedindex.i
+
+# target to preprocess a source file
+__/src/invertedindex.cpp.i:
+	cd /d C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\GtestTests.dir\build.make tests/CMakeFiles/GtestTests.dir/__/src/invertedindex.cpp.i
+.PHONY : __/src/invertedindex.cpp.i
+
+__/src/invertedindex.s: __/src/invertedindex.cpp.s
+.PHONY : __/src/invertedindex.s
+
+# target to generate assembly for a file
+__/src/invertedindex.cpp.s:
+	cd /d C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\GtestTests.dir\build.make tests/CMakeFiles/GtestTests.dir/__/src/invertedindex.cpp.s
+.PHONY : __/src/invertedindex.cpp.s
+
+__/src/searchserver.obj: __/src/searchserver.cpp.obj
+.PHONY : __/src/searchserver.obj
+
+# target to build an object file
+__/src/searchserver.cpp.obj:
+	cd /d C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\GtestTests.dir\build.make tests/CMakeFiles/GtestTests.dir/__/src/searchserver.cpp.obj
+.PHONY : __/src/searchserver.cpp.obj
+
+__/src/searchserver.i: __/src/searchserver.cpp.i
+.PHONY : __/src/searchserver.i
+
+# target to preprocess a source file
+__/src/searchserver.cpp.i:
+	cd /d C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\GtestTests.dir\build.make tests/CMakeFiles/GtestTests.dir/__/src/searchserver.cpp.i
+.PHONY : __/src/searchserver.cpp.i
+
+__/src/searchserver.s: __/src/searchserver.cpp.s
+.PHONY : __/src/searchserver.s
+
+# target to generate assembly for a file
+__/src/searchserver.cpp.s:
+	cd /d C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\GtestTests.dir\build.make tests/CMakeFiles/GtestTests.dir/__/src/searchserver.cpp.s
+.PHONY : __/src/searchserver.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -183,6 +341,25 @@ help:
 	@echo ... list_install_components
 	@echo ... rebuild_cache
 	@echo ... test
+	@echo ... GtestTests
+	@echo ... ConverterJSON_test.obj
+	@echo ... ConverterJSON_test.i
+	@echo ... ConverterJSON_test.s
+	@echo ... InvertedIndex_test.obj
+	@echo ... InvertedIndex_test.i
+	@echo ... InvertedIndex_test.s
+	@echo ... SearchServer_test.obj
+	@echo ... SearchServer_test.i
+	@echo ... SearchServer_test.s
+	@echo ... __/src/converterjson.obj
+	@echo ... __/src/converterjson.i
+	@echo ... __/src/converterjson.s
+	@echo ... __/src/invertedindex.obj
+	@echo ... __/src/invertedindex.i
+	@echo ... __/src/invertedindex.s
+	@echo ... __/src/searchserver.obj
+	@echo ... __/src/searchserver.i
+	@echo ... __/src/searchserver.s
 .PHONY : help
 
 

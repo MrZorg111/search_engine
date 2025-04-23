@@ -184,30 +184,6 @@ search_engine/fast:
 	cd /d C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\search_engine.dir\build.make src/CMakeFiles/search_engine.dir/build
 .PHONY : search_engine/fast
 
-__/tests/test.obj: __/tests/test.cpp.obj
-.PHONY : __/tests/test.obj
-
-# target to build an object file
-__/tests/test.cpp.obj:
-	cd /d C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\search_engine.dir\build.make src/CMakeFiles/search_engine.dir/__/tests/test.cpp.obj
-.PHONY : __/tests/test.cpp.obj
-
-__/tests/test.i: __/tests/test.cpp.i
-.PHONY : __/tests/test.i
-
-# target to preprocess a source file
-__/tests/test.cpp.i:
-	cd /d C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\search_engine.dir\build.make src/CMakeFiles/search_engine.dir/__/tests/test.cpp.i
-.PHONY : __/tests/test.cpp.i
-
-__/tests/test.s: __/tests/test.cpp.s
-.PHONY : __/tests/test.s
-
-# target to generate assembly for a file
-__/tests/test.cpp.s:
-	cd /d C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\search_engine.dir\build.make src/CMakeFiles/search_engine.dir/__/tests/test.cpp.s
-.PHONY : __/tests/test.cpp.s
-
 converterjson.obj: converterjson.cpp.obj
 .PHONY : converterjson.obj
 
@@ -318,9 +294,6 @@ help:
 	@echo ... rebuild_cache
 	@echo ... test
 	@echo ... search_engine
-	@echo ... __/tests/test.obj
-	@echo ... __/tests/test.i
-	@echo ... __/tests/test.s
 	@echo ... converterjson.obj
 	@echo ... converterjson.i
 	@echo ... converterjson.s

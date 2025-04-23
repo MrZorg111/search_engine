@@ -71,26 +71,11 @@ include src/CMakeFiles/search_engine.dir/flags.make
 src/CMakeFiles/search_engine.dir/codegen:
 .PHONY : src/CMakeFiles/search_engine.dir/codegen
 
-src/CMakeFiles/search_engine.dir/main.cpp.obj: src/CMakeFiles/search_engine.dir/flags.make
-src/CMakeFiles/search_engine.dir/main.cpp.obj: src/CMakeFiles/search_engine.dir/includes_CXX.rsp
-src/CMakeFiles/search_engine.dir/main.cpp.obj: C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/src/main.cpp
-src/CMakeFiles/search_engine.dir/main.cpp.obj: src/CMakeFiles/search_engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/search_engine.dir/main.cpp.obj"
-	cd /d C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/search_engine.dir/main.cpp.obj -MF CMakeFiles\search_engine.dir\main.cpp.obj.d -o CMakeFiles\search_engine.dir\main.cpp.obj -c C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\src\main.cpp
-
-src/CMakeFiles/search_engine.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/search_engine.dir/main.cpp.i"
-	cd /d C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\src\main.cpp > CMakeFiles\search_engine.dir\main.cpp.i
-
-src/CMakeFiles/search_engine.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/search_engine.dir/main.cpp.s"
-	cd /d C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\src\main.cpp -o CMakeFiles\search_engine.dir\main.cpp.s
-
 src/CMakeFiles/search_engine.dir/converterjson.cpp.obj: src/CMakeFiles/search_engine.dir/flags.make
 src/CMakeFiles/search_engine.dir/converterjson.cpp.obj: src/CMakeFiles/search_engine.dir/includes_CXX.rsp
 src/CMakeFiles/search_engine.dir/converterjson.cpp.obj: C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/src/converterjson.cpp
 src/CMakeFiles/search_engine.dir/converterjson.cpp.obj: src/CMakeFiles/search_engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/search_engine.dir/converterjson.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/search_engine.dir/converterjson.cpp.obj"
 	cd /d C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/search_engine.dir/converterjson.cpp.obj -MF CMakeFiles\search_engine.dir\converterjson.cpp.obj.d -o CMakeFiles\search_engine.dir\converterjson.cpp.obj -c C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\src\converterjson.cpp
 
 src/CMakeFiles/search_engine.dir/converterjson.cpp.i: cmake_force
@@ -100,6 +85,21 @@ src/CMakeFiles/search_engine.dir/converterjson.cpp.i: cmake_force
 src/CMakeFiles/search_engine.dir/converterjson.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/search_engine.dir/converterjson.cpp.s"
 	cd /d C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\src\converterjson.cpp -o CMakeFiles\search_engine.dir\converterjson.cpp.s
+
+src/CMakeFiles/search_engine.dir/searchserver.cpp.obj: src/CMakeFiles/search_engine.dir/flags.make
+src/CMakeFiles/search_engine.dir/searchserver.cpp.obj: src/CMakeFiles/search_engine.dir/includes_CXX.rsp
+src/CMakeFiles/search_engine.dir/searchserver.cpp.obj: C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/src/searchserver.cpp
+src/CMakeFiles/search_engine.dir/searchserver.cpp.obj: src/CMakeFiles/search_engine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/search_engine.dir/searchserver.cpp.obj"
+	cd /d C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/search_engine.dir/searchserver.cpp.obj -MF CMakeFiles\search_engine.dir\searchserver.cpp.obj.d -o CMakeFiles\search_engine.dir\searchserver.cpp.obj -c C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\src\searchserver.cpp
+
+src/CMakeFiles/search_engine.dir/searchserver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/search_engine.dir/searchserver.cpp.i"
+	cd /d C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\src\searchserver.cpp > CMakeFiles\search_engine.dir\searchserver.cpp.i
+
+src/CMakeFiles/search_engine.dir/searchserver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/search_engine.dir/searchserver.cpp.s"
+	cd /d C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\src\searchserver.cpp -o CMakeFiles\search_engine.dir\searchserver.cpp.s
 
 src/CMakeFiles/search_engine.dir/invertedindex.cpp.obj: src/CMakeFiles/search_engine.dir/flags.make
 src/CMakeFiles/search_engine.dir/invertedindex.cpp.obj: src/CMakeFiles/search_engine.dir/includes_CXX.rsp
@@ -116,64 +116,44 @@ src/CMakeFiles/search_engine.dir/invertedindex.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/search_engine.dir/invertedindex.cpp.s"
 	cd /d C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\src\invertedindex.cpp -o CMakeFiles\search_engine.dir\invertedindex.cpp.s
 
-src/CMakeFiles/search_engine.dir/searchserver.cpp.obj: src/CMakeFiles/search_engine.dir/flags.make
-src/CMakeFiles/search_engine.dir/searchserver.cpp.obj: src/CMakeFiles/search_engine.dir/includes_CXX.rsp
-src/CMakeFiles/search_engine.dir/searchserver.cpp.obj: C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/src/searchserver.cpp
-src/CMakeFiles/search_engine.dir/searchserver.cpp.obj: src/CMakeFiles/search_engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/search_engine.dir/searchserver.cpp.obj"
-	cd /d C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/search_engine.dir/searchserver.cpp.obj -MF CMakeFiles\search_engine.dir\searchserver.cpp.obj.d -o CMakeFiles\search_engine.dir\searchserver.cpp.obj -c C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\src\searchserver.cpp
+src/CMakeFiles/search_engine.dir/main.cpp.obj: src/CMakeFiles/search_engine.dir/flags.make
+src/CMakeFiles/search_engine.dir/main.cpp.obj: src/CMakeFiles/search_engine.dir/includes_CXX.rsp
+src/CMakeFiles/search_engine.dir/main.cpp.obj: C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/src/main.cpp
+src/CMakeFiles/search_engine.dir/main.cpp.obj: src/CMakeFiles/search_engine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/search_engine.dir/main.cpp.obj"
+	cd /d C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/search_engine.dir/main.cpp.obj -MF CMakeFiles\search_engine.dir\main.cpp.obj.d -o CMakeFiles\search_engine.dir\main.cpp.obj -c C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\src\main.cpp
 
-src/CMakeFiles/search_engine.dir/searchserver.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/search_engine.dir/searchserver.cpp.i"
-	cd /d C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\src\searchserver.cpp > CMakeFiles\search_engine.dir\searchserver.cpp.i
+src/CMakeFiles/search_engine.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/search_engine.dir/main.cpp.i"
+	cd /d C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\src\main.cpp > CMakeFiles\search_engine.dir\main.cpp.i
 
-src/CMakeFiles/search_engine.dir/searchserver.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/search_engine.dir/searchserver.cpp.s"
-	cd /d C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\src\searchserver.cpp -o CMakeFiles\search_engine.dir\searchserver.cpp.s
-
-src/CMakeFiles/search_engine.dir/__/tests/test.cpp.obj: src/CMakeFiles/search_engine.dir/flags.make
-src/CMakeFiles/search_engine.dir/__/tests/test.cpp.obj: src/CMakeFiles/search_engine.dir/includes_CXX.rsp
-src/CMakeFiles/search_engine.dir/__/tests/test.cpp.obj: C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/tests/test.cpp
-src/CMakeFiles/search_engine.dir/__/tests/test.cpp.obj: src/CMakeFiles/search_engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/search_engine.dir/__/tests/test.cpp.obj"
-	cd /d C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/search_engine.dir/__/tests/test.cpp.obj -MF CMakeFiles\search_engine.dir\__\tests\test.cpp.obj.d -o CMakeFiles\search_engine.dir\__\tests\test.cpp.obj -c C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\tests\test.cpp
-
-src/CMakeFiles/search_engine.dir/__/tests/test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/search_engine.dir/__/tests/test.cpp.i"
-	cd /d C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\tests\test.cpp > CMakeFiles\search_engine.dir\__\tests\test.cpp.i
-
-src/CMakeFiles/search_engine.dir/__/tests/test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/search_engine.dir/__/tests/test.cpp.s"
-	cd /d C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\tests\test.cpp -o CMakeFiles\search_engine.dir\__\tests\test.cpp.s
+src/CMakeFiles/search_engine.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/search_engine.dir/main.cpp.s"
+	cd /d C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\src\main.cpp -o CMakeFiles\search_engine.dir\main.cpp.s
 
 # Object files for target search_engine
 search_engine_OBJECTS = \
-"CMakeFiles/search_engine.dir/main.cpp.obj" \
 "CMakeFiles/search_engine.dir/converterjson.cpp.obj" \
-"CMakeFiles/search_engine.dir/invertedindex.cpp.obj" \
 "CMakeFiles/search_engine.dir/searchserver.cpp.obj" \
-"CMakeFiles/search_engine.dir/__/tests/test.cpp.obj"
+"CMakeFiles/search_engine.dir/invertedindex.cpp.obj" \
+"CMakeFiles/search_engine.dir/main.cpp.obj"
 
 # External object files for target search_engine
 search_engine_EXTERNAL_OBJECTS =
 
-src/search_engine.exe: src/CMakeFiles/search_engine.dir/main.cpp.obj
-src/search_engine.exe: src/CMakeFiles/search_engine.dir/converterjson.cpp.obj
-src/search_engine.exe: src/CMakeFiles/search_engine.dir/invertedindex.cpp.obj
-src/search_engine.exe: src/CMakeFiles/search_engine.dir/searchserver.cpp.obj
-src/search_engine.exe: src/CMakeFiles/search_engine.dir/__/tests/test.cpp.obj
-src/search_engine.exe: src/CMakeFiles/search_engine.dir/build.make
-src/search_engine.exe: lib/libgtest_maind.a
-src/search_engine.exe: lib/libgtestd.a
-src/search_engine.exe: src/CMakeFiles/search_engine.dir/linkLibs.rsp
-src/search_engine.exe: src/CMakeFiles/search_engine.dir/objects1.rsp
-src/search_engine.exe: src/CMakeFiles/search_engine.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable search_engine.exe"
+C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/search_engine.exe: src/CMakeFiles/search_engine.dir/converterjson.cpp.obj
+C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/search_engine.exe: src/CMakeFiles/search_engine.dir/searchserver.cpp.obj
+C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/search_engine.exe: src/CMakeFiles/search_engine.dir/invertedindex.cpp.obj
+C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/search_engine.exe: src/CMakeFiles/search_engine.dir/main.cpp.obj
+C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/search_engine.exe: src/CMakeFiles/search_engine.dir/build.make
+C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/search_engine.exe: src/CMakeFiles/search_engine.dir/linkLibs.rsp
+C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/search_engine.exe: src/CMakeFiles/search_engine.dir/objects1.rsp
+C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/search_engine.exe: src/CMakeFiles/search_engine.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\search_engine.exe"
 	cd /d C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build\src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\search_engine.dir\link.txt --verbose=$(VERBOSE)
-	cd /d C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build\src && P:\CMake\bin\cmake.exe -D TEST_TARGET=search_engine -D TEST_EXECUTABLE=C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/build/src/search_engine.exe -D TEST_EXECUTOR= -D TEST_WORKING_DIR=C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/build/src -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D TEST_FILTER= -D NO_PRETTY_TYPES=FALSE -D NO_PRETTY_VALUES=FALSE -D TEST_LIST=search_engine_TESTS -D CTEST_FILE=C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/build/src/search_engine[1]_tests.cmake -D TEST_DISCOVERY_TIMEOUT=5 -D TEST_DISCOVERY_EXTRA_ARGS= -D TEST_XML_OUTPUT_DIR= -P P:/CMake/share/cmake-3.31/Modules/GoogleTestAddTests.cmake
 
 # Rule to build all files generated by this target.
-src/CMakeFiles/search_engine.dir/build: src/search_engine.exe
+src/CMakeFiles/search_engine.dir/build: C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/search_engine.exe
 .PHONY : src/CMakeFiles/search_engine.dir/build
 
 src/CMakeFiles/search_engine.dir/clean:

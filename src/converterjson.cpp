@@ -6,7 +6,7 @@
 bool ConverterJSON::CheckConfig() {
     nlohmann::json dict;
     std::ifstream read_file_config;
-    read_file_config.open("../../data/config.json");
+    read_file_config.open(config_adress);
 
     if(!read_file_config.is_open()) {
         throw NotOpenFile();

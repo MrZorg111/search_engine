@@ -296,39 +296,6 @@ src/CMakeFiles/search_engine.dir/main.cpp.obj: \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/any \
  C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/nlohmann_json/include/nlohmann/detail/macro_unscope.hpp \
  C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/nlohmann_json/include/nlohmann/thirdparty/hedley/hedley_undef.hpp \
- C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/classes/converterjson.h \
- C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/build/_deps/googletest-src/googletest/include/gtest/gtest.h \
- C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-internal.h \
- C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-port.h \
- C:/mingw64/x86_64-w64-mingw32/include/sys/stat.h \
- C:/mingw64/x86_64-w64-mingw32/include/io.h \
- C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/build/_deps/googletest-src/googletest/include/gtest/internal/custom/gtest-port.h \
- C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-port-arch.h \
- C:/mingw64/x86_64-w64-mingw32/include/direct.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/optional \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/variant \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/float.h \
- C:/mingw64/x86_64-w64-mingw32/include/float.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/set \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_set.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_multiset.h \
- C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/build/_deps/googletest-src/googletest/include/gtest/gtest-message.h \
- C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-filepath.h \
- C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-string.h \
- C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-type-util.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/cxxabi.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32/bits/cxxabi_tweaks.h \
- C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/build/_deps/googletest-src/googletest/include/gtest/gtest-death-test.h \
- C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-death-test-internal.h \
- C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/build/_deps/googletest-src/googletest/include/gtest/gtest-matchers.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/atomic \
- C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/build/_deps/googletest-src/googletest/include/gtest/gtest-printers.h \
- C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/build/_deps/googletest-src/googletest/include/gtest/internal/custom/gtest-printers.h \
- C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/build/_deps/googletest-src/googletest/include/gtest/gtest-param-test.h \
- C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-param-util.h \
- C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/build/_deps/googletest-src/googletest/include/gtest/gtest-test-part.h \
- C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/build/_deps/googletest-src/googletest/include/gtest/gtest_prod.h \
- C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/build/_deps/googletest-src/googletest/include/gtest/gtest-typed-test.h \
- C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/build/_deps/googletest-src/googletest/include/gtest/gtest_pred_impl.h \
- C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/classes/invertedindex.h \
- C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/classes/searchserver.h
+ C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/include/converterjson.h \
+ C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/include/invertedindex.h \
+ C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/include/searchserver.h

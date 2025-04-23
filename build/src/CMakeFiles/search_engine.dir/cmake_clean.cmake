@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/search_engine.dir/__/tests/test.cpp.obj"
-  "CMakeFiles/search_engine.dir/__/tests/test.cpp.obj.d"
+  "C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/search_engine.exe"
+  "C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/search_engine.exe.manifest"
+  "C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/search_engine.pdb"
   "CMakeFiles/search_engine.dir/converterjson.cpp.obj"
   "CMakeFiles/search_engine.dir/converterjson.cpp.obj.d"
   "CMakeFiles/search_engine.dir/invertedindex.cpp.obj"
@@ -10,10 +11,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/search_engine.dir/searchserver.cpp.obj"
   "CMakeFiles/search_engine.dir/searchserver.cpp.obj.d"
   "libsearch_engine.dll.a"
-  "search_engine.exe"
-  "search_engine.exe.manifest"
-  "search_engine.pdb"
-  "search_engine[1]_tests.cmake"
 )
 
 # Per-language clean rules from dependency scanning.

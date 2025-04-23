@@ -1,6 +1,6 @@
 src/CMakeFiles/search_engine.dir/invertedindex.cpp.obj: \
  C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\src\invertedindex.cpp \
- C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/classes/invertedindex.h \
+ C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/include/invertedindex.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/iostream \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/requires_hosted.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
@@ -155,90 +155,5 @@ src/CMakeFiles/search_engine.dir/invertedindex.cpp.obj: \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_map.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_multimap.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/erase_if.h \
- C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/build/_deps/googletest-src/googletest/include/gtest/gtest.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/limits \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/memory \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_tempbuf.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_raw_storage_iter.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/align.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stdint.h \
- C:/mingw64/x86_64-w64-mingw32/include/stdint.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/unique_ptr.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/shared_ptr.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/shared_ptr_base.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/allocated_ptr.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/ext/concurrence.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/shared_ptr_atomic.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/atomic_base.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/atomic_lockfree_defines.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/backward/auto_ptr.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/pstl/glue_memory_defs.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/pstl/execution_defs.h \
- C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-internal.h \
- C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-port.h \
- C:/mingw64/x86_64-w64-mingw32/include/string.h \
- C:/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/cstdint \
- C:/mingw64/x86_64-w64-mingw32/include/sys/stat.h \
- C:/mingw64/x86_64-w64-mingw32/include/io.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/locale \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/locale_facets_nonio.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/ctime \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32/bits/time_members.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32/bits/messages_members.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/codecvt.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/locale_facets_nonio.tcc \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/locale_conv.h \
- C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/build/_deps/googletest-src/googletest/include/gtest/internal/custom/gtest-port.h \
- C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-port-arch.h \
- C:/mingw64/x86_64-w64-mingw32/include/direct.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/any \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/optional \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/enable_special_members.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/variant \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/parse_numbers.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/float.h \
- C:/mingw64/x86_64-w64-mingw32/include/float.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/iomanip \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/quoted_string.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/sstream \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/sstream.tcc \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/set \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_set.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_multiset.h \
- C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/build/_deps/googletest-src/googletest/include/gtest/gtest-message.h \
- C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-filepath.h \
- C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-string.h \
- C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-type-util.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/cxxabi.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32/bits/cxxabi_tweaks.h \
- C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/build/_deps/googletest-src/googletest/include/gtest/gtest-death-test.h \
- C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-death-test-internal.h \
- C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/build/_deps/googletest-src/googletest/include/gtest/gtest-matchers.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/atomic \
- C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/build/_deps/googletest-src/googletest/include/gtest/gtest-printers.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/functional \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/std_function.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/unordered_map \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/unordered_map.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/hashtable.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/hashtable_policy.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/array \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/compare \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_algo.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/algorithmfwd.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_heap.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/uniform_int_dist.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/utility \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_relops.h \
- C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/build/_deps/googletest-src/googletest/include/gtest/internal/custom/gtest-printers.h \
- C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/build/_deps/googletest-src/googletest/include/gtest/gtest-param-test.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/iterator \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stream_iterator.h \
- C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-param-util.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/cassert \
- C:/mingw64/x86_64-w64-mingw32/include/assert.h \
- C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/build/_deps/googletest-src/googletest/include/gtest/gtest-test-part.h \
- C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/build/_deps/googletest-src/googletest/include/gtest/gtest_prod.h \
- C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/build/_deps/googletest-src/googletest/include/gtest/gtest-typed-test.h \
- C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/build/_deps/googletest-src/googletest/include/gtest/gtest_pred_impl.h
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/sstream.tcc

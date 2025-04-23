@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20250423-0609-Experimental"
+	Name="(empty)"
+	Generator="ctest-3.31.3"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Windows"
+	Hostname="DESKTOP-SQ2SR2G"
+	OSRelease=" Professional"
+	OSVersion=" (Build 19045)"
+	OSPlatform="AMD64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="10"
+	ModelName=""
+	ProcessorCacheSize="-1"
+	NumberOfLogicalCPU="16"
+	NumberOfPhysicalCPU="10"
+	TotalVirtualMemory="22314"
+	TotalPhysicalMemory="16087"
+	LogicalProcessorsPerPhysical="1"
+	ProcessorClockFrequency="2918"
+	>
+	<Testing>
+		<StartDateTime>Apr 23 09:17 RTZ 2 ([NON-UTF-8-BYTE-0xE7][NON-UTF-8-BYTE-0xE8][NON-UTF-8-BYTE-0xEC][NON-UTF-8-BYTE-0xE0])</StartDateTime>
+		<StartTestTime>1745389068</StartTestTime>
+		<TestList>
+			<Test>./tests/InvertedIndex.getWordCount</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>InvertedIndex.getWordCount</Name>
+			<Path>./tests</Path>
+			<FullName>./tests/InvertedIndex.getWordCount</FullName>
+			<FullCommandLine>C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\tests\GtestTests.exe "--gtest_filter=InvertedIndex.getWordCount" "--gtest_also_run_disabled_tests"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0044828</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\tests\GtestTests.exe "--gtest_filter=InvertedIndex.getWordCount" "--gtest_also_run_disabled_tests"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyNUU1rwkAQve+vmKM5JLRXwUMxEqTUSqz04IawJmO6JZmV3Vnb/vvmQ8QUKr7TPObtvnkzqSfSVEGjNE0COFjTwHwqtw6tk4tYxqbwDRI7+fKTr62prGqcTCwq7ugnFiwdKlt85EiVJpR7r+tS5iUenayMqWpkdBw6W1xR2dOuyjvnqCjEyjBOIekl8NZ24KBrRgszWNIJLWO5pBK/owr53dhybjyx2M0uyCA9h3kE7t93Yc6185oxErvwggyS2uxVPfSRTtoa6qKCQw798Y/4+s/RPGIH6XYFPbKbow4aeH2+qYPJAzQuuNN9UAMbVnUg7svH7b3C0nzReHv/bQ2somjs00ZZP202i7iLPGgj8QsMksMH====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Apr 23 09:17 RTZ 2 ([NON-UTF-8-BYTE-0xE7][NON-UTF-8-BYTE-0xE8][NON-UTF-8-BYTE-0xEC][NON-UTF-8-BYTE-0xE0])</EndDateTime>
+		<EndTestTime>1745389068</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>
