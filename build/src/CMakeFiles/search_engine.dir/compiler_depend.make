@@ -316,6 +316,7 @@ src/CMakeFiles/search_engine.dir/invertedindex.cpp.obj: C:/Users/ED/Documents/My
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/basic_string.tcc \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/char_traits.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/charconv.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/chrono.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/concept_check.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/cpp_type_traits.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/cxxabi_forced.h \
@@ -343,6 +344,7 @@ src/CMakeFiles/search_engine.dir/invertedindex.cpp.obj: C:/Users/ED/Documents/My
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/node_handle.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/ostream.tcc \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/ostream_insert.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/parse_numbers.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/postypes.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/predefined_ops.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/ptr_traits.h \
@@ -351,6 +353,8 @@ src/CMakeFiles/search_engine.dir/invertedindex.cpp.obj: C:/Users/ED/Documents/My
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/requires_hosted.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/sstream.tcc \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/std_abs.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/std_mutex.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/std_thread.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_algobase.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_bvector.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_construct.h \
@@ -368,6 +372,9 @@ src/CMakeFiles/search_engine.dir/invertedindex.cpp.obj: C:/Users/ED/Documents/My
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/streambuf_iterator.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/string_view.tcc \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stringfwd.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/this_thread_sleep.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/unique_lock.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/unique_ptr.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/uses_allocator.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/uses_allocator_args.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/utility.h \
@@ -376,8 +383,10 @@ src/CMakeFiles/search_engine.dir/invertedindex.cpp.obj: C:/Users/ED/Documents/My
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/cerrno \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/clocale \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/cstddef \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/cstdint \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/cstdio \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/cstdlib \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/ctime \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/cwchar \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/cwctype \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/debug/assertions.h \
@@ -394,10 +403,13 @@ src/CMakeFiles/search_engine.dir/invertedindex.cpp.obj: C:/Users/ED/Documents/My
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/iosfwd \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/iostream \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/istream \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/limits \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/map \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/mutex \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/new \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/ostream \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/pstl/pstl_config.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/ratio \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/sstream \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/stdexcept \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/stdlib.h \
@@ -405,6 +417,7 @@ src/CMakeFiles/search_engine.dir/invertedindex.cpp.obj: C:/Users/ED/Documents/My
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/string \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/string_view \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/system_error \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/thread \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/tuple \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/type_traits \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/typeinfo \
@@ -423,6 +436,7 @@ src/CMakeFiles/search_engine.dir/invertedindex.cpp.obj: C:/Users/ED/Documents/My
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/limits.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/mm_malloc.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stddef.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stdint.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/syslimits.h \
   C:/mingw64/x86_64-w64-mingw32/include/_mingw.h \
   C:/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h \
@@ -453,6 +467,7 @@ src/CMakeFiles/search_engine.dir/invertedindex.cpp.obj: C:/Users/ED/Documents/My
   C:/mingw64/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
   C:/mingw64/x86_64-w64-mingw32/include/signal.h \
   C:/mingw64/x86_64-w64-mingw32/include/stddef.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stdint.h \
   C:/mingw64/x86_64-w64-mingw32/include/stdio.h \
   C:/mingw64/x86_64-w64-mingw32/include/stdlib.h \
   C:/mingw64/x86_64-w64-mingw32/include/swprintf.inl \
@@ -989,6 +1004,8 @@ C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/nlohmann_json/incl
 
 C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/nlohmann_json/include/nlohmann/detail/input/lexer.hpp:
 
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/unique_lock.h:
+
 C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/nlohmann_json/include/nlohmann/detail/input/parser.hpp:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/valarray_array.h:
@@ -1321,6 +1338,8 @@ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/valarray_after.h:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/valarray_array.tcc:
 
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/mutex:
+
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/valarray_before.h:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/vector.tcc:
@@ -1535,6 +1554,14 @@ C:/mingw64/x86_64-w64-mingw32/include/wchar.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/wctype.h:
 
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/this_thread_sleep.h:
+
 C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/include/invertedindex.h:
+
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/std_mutex.h:
+
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/std_thread.h:
+
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/thread:
 
 C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/src/main.cpp:

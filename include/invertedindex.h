@@ -39,7 +39,5 @@ public:
     //Возвращает общее кол-во документов
     int GetNumberDocument();
 
-    //Возвращает статус freq_dictionary, пуст/нет
-    //void GetStatFreq();
-
+    std::map<std::string, std::vector<Entry>> update_doc(std::string text, int num_doc);
 };
