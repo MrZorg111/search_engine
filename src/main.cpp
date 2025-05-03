@@ -31,12 +31,12 @@ int main() {
         std::vector<std::thread> threads;
         
         for(int i = 0; i < documents.size(); i++) {
-            threads.emplace_back(&InvertedIndex::UpdateDocumentBase, &invertedIndex, documents[i], i);
-        }
+                threads.emplace_back(&InvertedIndex::UpdateDocumentBase, &invertedIndex, documents[i], i);
+            }
         for (auto& thread : threads) {
-            thread.join();
-        }
-
+                thread.join();
+            }
+        
         
         
         //Подготовим ответы на запрос

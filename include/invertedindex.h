@@ -34,9 +34,8 @@ public:
     //Возвращает подготовленный список с частотой слов 
     std::vector<Entry> GetWordCount(const std::string& word);
 
+    //Принимает количество документов на хранение
     void SetNumberDocument(int num);
     //Возвращает общее кол-во документов
     int GetNumberDocument();
-
-    void GetMap();
 };

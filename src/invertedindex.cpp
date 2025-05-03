@@ -66,22 +66,7 @@ std::vector<Entry> InvertedIndex::GetWordCount(const std::string& word) {
 void InvertedIndex::SetNumberDocument(int num) {
     num_docs = num;
 }
-//Выводит общее кол-во документов для поиска
+
 int InvertedIndex::GetNumberDocument() {
     return num_docs;
-}
-
-void InvertedIndex::GetMap() {
-    if(!freq_dictionary.empty()) {
-        for(auto& it: freq_dictionary) {
-            std::cout << it.first << " ";
-            for(auto& its: it.second) {
-                std::cout << its.doc_id << "\t" << its.count << std::endl;
-            }
-            std::cout << std::endl;
-        }
-    }
-    else {
-        std::cout << "MAP EMPTY!!!!" << std::endl;
-    }
 }
