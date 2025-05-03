@@ -296,6 +296,12 @@ src/CMakeFiles/search_engine.dir/main.cpp.obj: \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/any \
  C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/nlohmann_json/include/nlohmann/detail/macro_unscope.hpp \
  C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/nlohmann_json/include/nlohmann/thirdparty/hedley/hedley_undef.hpp \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/thread \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/std_thread.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/this_thread_sleep.h \
  C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/include/converterjson.h \
  C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/include/invertedindex.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/mutex \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/std_mutex.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/unique_lock.h \
  C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/include/searchserver.h

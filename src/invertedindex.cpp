@@ -4,22 +4,21 @@
 #include <vector>
 #include <sstream>
 #include <string>
-#include <thread>
-#include <mutex>
 
-
-std::map<std::string, std::vector<Entry>> InvertedIndex::update_doc(std::string text, int num_doc) {
+//Составляем карту слов с привязкой к документу и кол-во раз появления в тексте
+void InvertedIndex::UpdateDocumentBase(std::string input_word, int num_doc) {
+    std::mutex mut;
     bool flag_add_count = false;
-    std::istringstream stream_text(text);
+    std::istringstream stream_text(input_word);
     std::string constructor_doc;
-    std::map<std::string, std::vector<Entry>> tempo_map;
+    mut.lock();
     while(stream_text >> constructor_doc) {
-        if(!tempo_map.count(constructor_doc)) {
+        if(!freq_dictionary.count(constructor_doc)) {
             std::vector<Entry> add_word;
             _entry.doc_id = num_doc;
             _entry.count = 1;
             add_word.push_back(_entry);
-            tempo_map.insert(std::pair<std::string, std::vector<Entry>> (constructor_doc, add_word));
+            freq_dictionary.insert(std::pair<std::string, std::vector<Entry>> (constructor_doc, add_word));
         }
         else {
             auto it = freq_dictionary.find(constructor_doc);
@@ -38,15 +37,7 @@ std::map<std::string, std::vector<Entry>> InvertedIndex::update_doc(std::string 
         flag_add_count = false;
         constructor_doc.clear();
     }
-
-    return tempo_map;
-}
-
-//Составляем карту слов с привязкой к документу и кол-во раз появления в тексте
-void InvertedIndex::UpdateDocumentBase(std::vector<std::string> input_word) {
-    for(int i = 0; i < input_word.size(); i++) {
-        update_doc(input_word[i], i);
-    }
+    mut.unlock();
 }
 
 //Производим поиск по карте полученного слова. 
@@ -71,7 +62,26 @@ std::vector<Entry> InvertedIndex::GetWordCount(const std::string& word) {
     return words;
 }
 
+
+void InvertedIndex::SetNumberDocument(int num) {
+    num_docs = num;
+}
 //Выводит общее кол-во документов для поиска
 int InvertedIndex::GetNumberDocument() {
-    return docs.size();
+    return num_docs;
+}
+
+void InvertedIndex::GetMap() {
+    if(!freq_dictionary.empty()) {
+        for(auto& it: freq_dictionary) {
+            std::cout << it.first << " ";
+            for(auto& its: it.second) {
+                std::cout << its.doc_id << "\t" << its.count << std::endl;
+            }
+            std::cout << std::endl;
+        }
+    }
+    else {
+        std::cout << "MAP EMPTY!!!!" << std::endl;
+    }
 }

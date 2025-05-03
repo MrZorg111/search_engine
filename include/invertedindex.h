@@ -2,8 +2,7 @@
 #include <iostream>
 #include <vector>
 #include <map>
-
-//#include "gtest/gtest.h"
+#include <mutex>
 
 struct Entry {
     size_t doc_id = 0, count = 0;
@@ -19,8 +18,7 @@ class InvertedIndex {
     
     Entry _entry;
     
-    //Коллекция для хранения текстов документов, в которой номер элемента в векторе определяет doc_id для формирования результата запроса
-    std::vector<std::string> docs;
+    int num_docs;
 
     //Частотный словарь, для хранения частоты слов, встречаемый в тексте Entry - структура, объявлена выше.
     std::map<std::string, std::vector<Entry>> freq_dictionary;
@@ -29,15 +27,16 @@ public:
     InvertedIndex() = default;
 
     //Обновить или заполнить базу документов, по которой будем совершать поиск,
-    void UpdateDocumentBase(std::vector<std::string> input_docs);
+    void UpdateDocumentBase(std::string input_docs, int num_doc);
 
     //Метод определяет кол-во вхождений искомого слова в загруженной базе документов.
     //Word слово, частоту вхождений которого необходимо определить
     //Возвращает подготовленный список с частотой слов 
     std::vector<Entry> GetWordCount(const std::string& word);
 
+    void SetNumberDocument(int num);
     //Возвращает общее кол-во документов
     int GetNumberDocument();
 
-    std::map<std::string, std::vector<Entry>> update_doc(std::string text, int num_doc);
+    void GetMap();
 };
