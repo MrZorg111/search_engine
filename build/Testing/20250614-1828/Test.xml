@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20250614-1828-Experimental"
+	Name="(empty)"
+	Generator="ctest-3.31.3"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Windows"
+	Hostname="DESKTOP-SQ2SR2G"
+	OSRelease=" Professional"
+	OSVersion=" (Build 19045)"
+	OSPlatform="AMD64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="10"
+	ModelName=""
+	ProcessorCacheSize="-1"
+	NumberOfLogicalCPU="16"
+	NumberOfPhysicalCPU="10"
+	TotalVirtualMemory="24791"
+	TotalPhysicalMemory="16087"
+	LogicalProcessorsPerPhysical="1"
+	ProcessorClockFrequency="2918"
+	>
+	<Testing>
+		<StartDateTime>Jun 14 21:56 RTZ 2 ([NON-UTF-8-BYTE-0xE7][NON-UTF-8-BYTE-0xE8][NON-UTF-8-BYTE-0xEC][NON-UTF-8-BYTE-0xE0])</StartDateTime>
+		<StartTestTime>1749927378</StartTestTime>
+		<TestList>
+			<Test>./tests/TestCaseSearchServer.TestTop5</Test>
+		</TestList>
+		<Test Status="failed">
+			<Name>TestCaseSearchServer.TestTop5</Name>
+			<Path>./tests</Path>
+			<FullName>./tests/TestCaseSearchServer.TestTop5</FullName>
+			<FullCommandLine>C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\tests\GtestTests.exe "--gtest_filter=TestCaseSearchServer.TestTop5" "--gtest_also_run_disabled_tests"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0051238</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\tests\GtestTests.exe "--gtest_filter=TestCaseSearchServer.TestTop5" "--gtest_also_run_disabled_tests"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJzFllFv2jAQgN/9K+6xSE0U0wFdtE5KgaBJW1UB1R4wQiEc4MnEme3Qoqn/fXGCOthatciT6kiRz777fOfoLjcssoxnK9gkPDtrwFLJDXRDdqdRadbvsZ5Miw1mRrNvu9mtkiuVbDQbKEyMFX9gapjGRKXrGWYrniGbF1ws2GyBuWYrKVcCDWrjaZUeiKwS7WxmT/bTlNxIgyEMKhUYlzuw5MKggqtK6iYaR9VBI1RbVL5dHMu8RSZXT2MKw308FEyFsPHs57rgBn0y8Z7GFAZCzhNR72O25UpmNlrQaLwi/0v5kPmcS2QCw7sbqMb0Facpcbtl64lmh+yZXfLTPA/brRDihItCIek/5KUxLgB/FongZgdyCWaNGmGbiAJ1SAAU6kIYYv3+vubpGrgO4Vf50LY33xkEObcuwKeg4wUBBMHz78vAu4gh6nkBrVc+n/9L6DsTXrCNrr0ogmb0BgJ1JjSdCRfOhA/OhJYzoe1MuHQmfHQmRM6Ea2dC15nQcybErgTqnJvUOTepc25S59ykzrlJT8xNeITHsoDjvtz/p1oed7xO/M61vPnne75bLT+8h+qmJwBx9OVrv/fqnx7OAtjoxmmdRG0ERppENMjbWhZT2nsLeZ8dN0QvNUKgksw/PqcM6jYajeqggkpX+8eh1oRzEFzbpmKOQt6HJ9wGISVirzvuj8bkN9zyuW4=</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Jun 14 21:56 RTZ 2 ([NON-UTF-8-BYTE-0xE7][NON-UTF-8-BYTE-0xE8][NON-UTF-8-BYTE-0xEC][NON-UTF-8-BYTE-0xE0])</EndDateTime>
+		<EndTestTime>1749927378</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

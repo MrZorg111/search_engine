@@ -1,72 +1,92 @@
 #include "invertedindex.h"
 
-
 #include <vector>
 #include <sstream>
 #include <string>
 
-//Составляем карту слов с привязкой к документу и кол-во раз появления в тексте
-void InvertedIndex::UpdateDocumentBase(std::string input_word, int num_doc) {
+void InvertedIndex::StartThread(const std::vector<std::string>& documents) {
+    std::vector<std::thread> threads;
+    for(int i = 0; i < documents.size(); i++) {
+                threads.emplace_back(&InvertedIndex::UpdateDocumentBase, std::move(this), documents[i], i);
+    }
+    for (auto& thread : threads) {
+            if(thread.joinable()) {
+                thread.join();
+            }
+        }
+}
+
+void InvertedIndex::UpdateDocumentBase(std::string input_docs, int num_doc) {
+    docs.push_back(input_docs);
+    bool flag = true;
+    std::string word;
+    std::vector<Entry> tempo_struct;
+    std::stringstream doc_data(input_docs);
     std::mutex mut;
-    bool flag_add_count = false;
-    std::istringstream stream_text(input_word);
-    std::string constructor_doc;
+
     mut.lock();
-    while(stream_text >> constructor_doc) {
-        if(!freq_dictionary.count(constructor_doc)) {
-            std::vector<Entry> add_word;
+    while(doc_data >> word) {
+        if(!freq_dictionary.count(word)) {
             _entry.doc_id = num_doc;
             _entry.count = 1;
-            add_word.push_back(_entry);
-            freq_dictionary.insert(std::pair<std::string, std::vector<Entry>> (constructor_doc, add_word));
+            tempo_struct.push_back(_entry);
+            freq_dictionary.insert(std::pair<std::string, std::vector<Entry>> (word, tempo_struct));
+            tempo_struct.clear();
         }
         else {
-            auto it = freq_dictionary.find(constructor_doc);
-            for(auto& its: it->second) {
-                if(its.doc_id == num_doc) {
-                    its.count++;
-                    flag_add_count = true;
+            auto& tempo_list = *freq_dictionary.find(word);
+
+            for(int t = 0; t < tempo_list.second.size(); t++) {
+                if(tempo_list.second[t].doc_id == num_doc) {
+                    tempo_list.second[t].count++;
+                    flag = false;
+                    break;
                 }
             }
-            if(!flag_add_count) {
-                _entry.doc_id = num_doc;
-                _entry.count = 1;
-                it->second.push_back(_entry);
+            
+            if(flag) {
+            _entry.doc_id = num_doc;
+            _entry.count = 1;
+            tempo_list.second.push_back(_entry);
             }
+            flag = true;
+                
         }
-        flag_add_count = false;
-        constructor_doc.clear();
     }
     mut.unlock();
 }
 
-//Производим поиск по карте полученного слова. 
-//Выводим документ и кол-во раз появления в нем искомого слова
-//В случае отсутствия слова в карте, устанавливаем обе позиции на 0
 std::vector<Entry> InvertedIndex::GetWordCount(const std::string& word) {
     std::vector<Entry> words;
 
     if(freq_dictionary.count(word)) {
         auto it = freq_dictionary.find(word);
         
+
         for(int i = 0; i < it->second.size(); i++) {
             words.push_back(it->second[i]);
         }
+        
+        
     }
     else {
         Entry tempo;
-        tempo.doc_id = 0;
-        tempo.count = 0;
         words.push_back(tempo);
     }
+    
+    for(int s = 0; s < words.size(); s++) {
+        for(int t = s + 1; t < words.size(); t++) {
+            if(words[s].doc_id > words[t].doc_id) {
+                auto tempo = words[s];
+                words[s] = words[t];
+                words[t] = tempo;
+            }
+        }    
+    }
+
     return words;
 }
 
-
-void InvertedIndex::SetNumberDocument(int num) {
-    num_docs = num;
-}
-
-int InvertedIndex::GetNumberDocument() {
-    return num_docs;
+void InvertedIndex::ClearFreqDictionary(){
+    freq_dictionary.clear();
 }

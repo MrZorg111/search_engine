@@ -1,0 +1,63 @@
+Start testing: Jun 10 23:16 RTZ 2 (חטלא)
+----------------------------------------------------------
+2/5 Testing: TestCaseSearchServer.TestTop5
+2/5 Test: TestCaseSearchServer.TestTop5
+Command: "C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/tests/GtestTests.exe" "--gtest_filter=TestCaseSearchServer.TestTop5" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/build/tests
+"TestCaseSearchServer.TestTop5" start time: Jun 10 23:16 RTZ 2 (חטלא)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = TestCaseSearchServer.TestTop5
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TestCaseSearchServer
+[ RUN      ] TestCaseSearchServer.TestTop5
+REQUEST ג„– 1
+DOC_ID 7	 RANK 1
+DOC_ID 14	 RANK 1
+DOC_ID 0	 RANK 0.666667
+DOC_ID 1	 RANK 0.666667
+DOC_ID 2	 RANK 0.666667
+DOC_ID 3	 RANK 0.666667
+DOC_ID 4	 RANK 0.666667
+DOC_ID 5	 RANK 0.666667
+DOC_ID 6	 RANK 0.666667
+DOC_ID 8	 RANK 0.666667
+DOC_ID 9	 RANK 0.666667
+DOC_ID 10	 RANK 0.666667
+DOC_ID 11	 RANK 0.666667
+DOC_ID 12	 RANK 0.666667
+DOC_ID 13	 RANK 0.666667
+DOC_ID 15	 RANK 0.666667
+DOC_ID 16	 RANK 0.666667
+DOC_ID 17	 RANK 0.666667
+DOC_ID 18	 RANK 0.666667
+DOC_ID 19	 RANK 0.666667
+DOC_ID 20	 RANK 0.666667
+DOC_ID 21	 RANK 0.666667
+C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\tests\SearchServer_test.cpp:64: Failure
+Expected equality of these values:
+  result
+    Which is: { { 16-byte object <07-00 00-00 00-00 00-00 00-00 00-00 00-00 F0-3F>, 16-byte object <0E-00 00-00 00-00 00-00 00-00 00-00 00-00 F0-3F>, 16-byte object <00-00 00-00 00-00 00-00 55-55 55-55 55-55 E5-3F>, 16-byte object <01-00 00-00 00-00 00-00 55-55 55-55 55-55 E5-3F>, 16-byte object <02-00 00-00 00-00 00-00 55-55 55-55 55-55 E5-3F>, 16-byte object <03-00 00-00 00-00 00-00 55-55 55-55 55-55 E5-3F>, 16-byte object <04-00 00-00 00-00 00-00 55-55 55-55 55-55 E5-3F>, 16-byte object <05-00 00-00 00-00 00-00 55-55 55-55 55-55 E5-3F>, 16-byte object <06-00 00-00 00-00 00-00 55-55 55-55 55-55 E5-3F>, 16-byte object <08-00 00-00 00-00 00-00 55-55 55-55 55-55 E5-3F>, 16-byte object <09-00 00-00 00-00 00-00 55-55 55-55 55-55 E5-3F>, 16-byte object <0A-00 00-00 00-00 00-00 55-55 55-55 55-55 E5-3F>, 16-byte object <0B-00 00-00 00-00 00-00 55-55 55-55 55-55 E5-3F>, 16-byte object <0C-00 00-00 00-00 00-00 55-55 55-55 55-55 E5-3F>, 16-byte object <0D-00 00-00 00-00 00-00 55-55 55-55 55-55 E5-3F>, 16-byte object <0F-00 00-00 00-00 00-00 55-55 55-55 55-55 E5-3F>, 16-byte object <10-00 00-00 00-00 00-00 55-55 55-55 55-55 E5-3F>, 16-byte object <11-00 00-00 00-00 00-00 55-55 55-55 55-55 E5-3F>, 16-byte object <12-00 00-00 00-00 00-00 55-55 55-55 55-55 E5-3F>, 16-byte object <13-00 00-00 00-00 00-00 55-55 55-55 55-55 E5-3F>, 16-byte object <14-00 00-00 00-00 00-00 55-55 55-55 55-55 E5-3F>, 16-byte object <15-00 00-00 00-00 00-00 55-55 55-55 55-55 E5-3F> } }
+  expected
+    Which is: { { 16-byte object <07-00 00-00 00-00 00-00 00-00 00-00 00-00 F0-3F>, 16-byte object <0E-00 00-00 00-00 00-00 00-00 00-00 00-00 F0-3F>, 16-byte object <00-00 00-00 00-00 00-00 5D-51 4A-08 56-55 E5-3F>, 16-byte object <01-00 00-00 00-00 00-00 5D-51 4A-08 56-55 E5-3F>, 16-byte object <02-00 00-00 00-00 00-00 5D-51 4A-08 56-55 E5-3F> } }
+[  FAILED  ] TestCaseSearchServer.TestTop5 (0 ms)
+[----------] 1 test from TestCaseSearchServer (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] TestCaseSearchServer.TestTop5
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"TestCaseSearchServer.TestTop5" end time: Jun 10 23:16 RTZ 2 (חטלא)
+"TestCaseSearchServer.TestTop5" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jun 10 23:16 RTZ 2 (חטלא)

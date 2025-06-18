@@ -101,26 +101,11 @@ tests/CMakeFiles/GtestTests.dir/SearchServer_test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GtestTests.dir/SearchServer_test.cpp.s"
 	cd /d C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build\tests && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\tests\SearchServer_test.cpp -o CMakeFiles\GtestTests.dir\SearchServer_test.cpp.s
 
-tests/CMakeFiles/GtestTests.dir/ConverterJSON_test.cpp.obj: tests/CMakeFiles/GtestTests.dir/flags.make
-tests/CMakeFiles/GtestTests.dir/ConverterJSON_test.cpp.obj: tests/CMakeFiles/GtestTests.dir/includes_CXX.rsp
-tests/CMakeFiles/GtestTests.dir/ConverterJSON_test.cpp.obj: C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/tests/ConverterJSON_test.cpp
-tests/CMakeFiles/GtestTests.dir/ConverterJSON_test.cpp.obj: tests/CMakeFiles/GtestTests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object tests/CMakeFiles/GtestTests.dir/ConverterJSON_test.cpp.obj"
-	cd /d C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build\tests && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/GtestTests.dir/ConverterJSON_test.cpp.obj -MF CMakeFiles\GtestTests.dir\ConverterJSON_test.cpp.obj.d -o CMakeFiles\GtestTests.dir\ConverterJSON_test.cpp.obj -c C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\tests\ConverterJSON_test.cpp
-
-tests/CMakeFiles/GtestTests.dir/ConverterJSON_test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GtestTests.dir/ConverterJSON_test.cpp.i"
-	cd /d C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build\tests && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\tests\ConverterJSON_test.cpp > CMakeFiles\GtestTests.dir\ConverterJSON_test.cpp.i
-
-tests/CMakeFiles/GtestTests.dir/ConverterJSON_test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GtestTests.dir/ConverterJSON_test.cpp.s"
-	cd /d C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build\tests && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\tests\ConverterJSON_test.cpp -o CMakeFiles\GtestTests.dir\ConverterJSON_test.cpp.s
-
 tests/CMakeFiles/GtestTests.dir/__/src/invertedindex.cpp.obj: tests/CMakeFiles/GtestTests.dir/flags.make
 tests/CMakeFiles/GtestTests.dir/__/src/invertedindex.cpp.obj: tests/CMakeFiles/GtestTests.dir/includes_CXX.rsp
 tests/CMakeFiles/GtestTests.dir/__/src/invertedindex.cpp.obj: C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/src/invertedindex.cpp
 tests/CMakeFiles/GtestTests.dir/__/src/invertedindex.cpp.obj: tests/CMakeFiles/GtestTests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object tests/CMakeFiles/GtestTests.dir/__/src/invertedindex.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object tests/CMakeFiles/GtestTests.dir/__/src/invertedindex.cpp.obj"
 	cd /d C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build\tests && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/GtestTests.dir/__/src/invertedindex.cpp.obj -MF CMakeFiles\GtestTests.dir\__\src\invertedindex.cpp.obj.d -o CMakeFiles\GtestTests.dir\__\src\invertedindex.cpp.obj -c C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\src\invertedindex.cpp
 
 tests/CMakeFiles/GtestTests.dir/__/src/invertedindex.cpp.i: cmake_force
@@ -135,7 +120,7 @@ tests/CMakeFiles/GtestTests.dir/__/src/searchserver.cpp.obj: tests/CMakeFiles/Gt
 tests/CMakeFiles/GtestTests.dir/__/src/searchserver.cpp.obj: tests/CMakeFiles/GtestTests.dir/includes_CXX.rsp
 tests/CMakeFiles/GtestTests.dir/__/src/searchserver.cpp.obj: C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/src/searchserver.cpp
 tests/CMakeFiles/GtestTests.dir/__/src/searchserver.cpp.obj: tests/CMakeFiles/GtestTests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object tests/CMakeFiles/GtestTests.dir/__/src/searchserver.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object tests/CMakeFiles/GtestTests.dir/__/src/searchserver.cpp.obj"
 	cd /d C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build\tests && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/GtestTests.dir/__/src/searchserver.cpp.obj -MF CMakeFiles\GtestTests.dir\__\src\searchserver.cpp.obj.d -o CMakeFiles\GtestTests.dir\__\src\searchserver.cpp.obj -c C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\src\searchserver.cpp
 
 tests/CMakeFiles/GtestTests.dir/__/src/searchserver.cpp.i: cmake_force
@@ -146,46 +131,27 @@ tests/CMakeFiles/GtestTests.dir/__/src/searchserver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GtestTests.dir/__/src/searchserver.cpp.s"
 	cd /d C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build\tests && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\src\searchserver.cpp -o CMakeFiles\GtestTests.dir\__\src\searchserver.cpp.s
 
-tests/CMakeFiles/GtestTests.dir/__/src/converterjson.cpp.obj: tests/CMakeFiles/GtestTests.dir/flags.make
-tests/CMakeFiles/GtestTests.dir/__/src/converterjson.cpp.obj: tests/CMakeFiles/GtestTests.dir/includes_CXX.rsp
-tests/CMakeFiles/GtestTests.dir/__/src/converterjson.cpp.obj: C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/src/converterjson.cpp
-tests/CMakeFiles/GtestTests.dir/__/src/converterjson.cpp.obj: tests/CMakeFiles/GtestTests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object tests/CMakeFiles/GtestTests.dir/__/src/converterjson.cpp.obj"
-	cd /d C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build\tests && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/GtestTests.dir/__/src/converterjson.cpp.obj -MF CMakeFiles\GtestTests.dir\__\src\converterjson.cpp.obj.d -o CMakeFiles\GtestTests.dir\__\src\converterjson.cpp.obj -c C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\src\converterjson.cpp
-
-tests/CMakeFiles/GtestTests.dir/__/src/converterjson.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GtestTests.dir/__/src/converterjson.cpp.i"
-	cd /d C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build\tests && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\src\converterjson.cpp > CMakeFiles\GtestTests.dir\__\src\converterjson.cpp.i
-
-tests/CMakeFiles/GtestTests.dir/__/src/converterjson.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GtestTests.dir/__/src/converterjson.cpp.s"
-	cd /d C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build\tests && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\src\converterjson.cpp -o CMakeFiles\GtestTests.dir\__\src\converterjson.cpp.s
-
 # Object files for target GtestTests
 GtestTests_OBJECTS = \
 "CMakeFiles/GtestTests.dir/InvertedIndex_test.cpp.obj" \
 "CMakeFiles/GtestTests.dir/SearchServer_test.cpp.obj" \
-"CMakeFiles/GtestTests.dir/ConverterJSON_test.cpp.obj" \
 "CMakeFiles/GtestTests.dir/__/src/invertedindex.cpp.obj" \
-"CMakeFiles/GtestTests.dir/__/src/searchserver.cpp.obj" \
-"CMakeFiles/GtestTests.dir/__/src/converterjson.cpp.obj"
+"CMakeFiles/GtestTests.dir/__/src/searchserver.cpp.obj"
 
 # External object files for target GtestTests
 GtestTests_EXTERNAL_OBJECTS =
 
 C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/tests/GtestTests.exe: tests/CMakeFiles/GtestTests.dir/InvertedIndex_test.cpp.obj
 C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/tests/GtestTests.exe: tests/CMakeFiles/GtestTests.dir/SearchServer_test.cpp.obj
-C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/tests/GtestTests.exe: tests/CMakeFiles/GtestTests.dir/ConverterJSON_test.cpp.obj
 C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/tests/GtestTests.exe: tests/CMakeFiles/GtestTests.dir/__/src/invertedindex.cpp.obj
 C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/tests/GtestTests.exe: tests/CMakeFiles/GtestTests.dir/__/src/searchserver.cpp.obj
-C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/tests/GtestTests.exe: tests/CMakeFiles/GtestTests.dir/__/src/converterjson.cpp.obj
 C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/tests/GtestTests.exe: tests/CMakeFiles/GtestTests.dir/build.make
 C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/tests/GtestTests.exe: lib/libgtest_main.a
 C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/tests/GtestTests.exe: lib/libgtest.a
 C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/tests/GtestTests.exe: tests/CMakeFiles/GtestTests.dir/linkLibs.rsp
 C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/tests/GtestTests.exe: tests/CMakeFiles/GtestTests.dir/objects1.rsp
 C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/tests/GtestTests.exe: tests/CMakeFiles/GtestTests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\tests\GtestTests.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\tests\GtestTests.exe"
 	cd /d C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build\tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\GtestTests.dir\link.txt --verbose=$(VERBOSE)
 	cd /d C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build\tests && P:\CMake\bin\cmake.exe -D TEST_TARGET=GtestTests -D TEST_EXECUTABLE=C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/tests/GtestTests.exe -D TEST_EXECUTOR= -D TEST_WORKING_DIR=C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/build/tests -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D TEST_FILTER= -D NO_PRETTY_TYPES=FALSE -D NO_PRETTY_VALUES=FALSE -D TEST_LIST=GtestTests_TESTS -D CTEST_FILE=C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/build/tests/GtestTests[1]_tests.cmake -D TEST_DISCOVERY_TIMEOUT=5 -D TEST_DISCOVERY_EXTRA_ARGS= -D TEST_XML_OUTPUT_DIR= -P P:/CMake/share/cmake-3.31/Modules/GoogleTestAddTests.cmake
 

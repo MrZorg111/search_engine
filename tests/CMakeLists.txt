@@ -5,14 +5,12 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
 set(SrcFiles
     ${MY_SRC_DIR}/invertedindex.cpp
     ${MY_SRC_DIR}/searchserver.cpp
-    ${MY_SRC_DIR}/converterJSON.cpp
 )
 
 
 set(TestsFiles
         InvertedIndex_test.cpp
         SearchServer_test.cpp
-        ConverterJSON_test.cpp
 )
 
 

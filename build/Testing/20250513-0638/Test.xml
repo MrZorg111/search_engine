@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20250513-0638-Experimental"
+	Name="(empty)"
+	Generator="ctest-3.31.3"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Windows"
+	Hostname="DESKTOP-SQ2SR2G"
+	OSRelease=" Professional"
+	OSVersion=" (Build 19045)"
+	OSPlatform="AMD64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="10"
+	ModelName=""
+	ProcessorCacheSize="-1"
+	NumberOfLogicalCPU="16"
+	NumberOfPhysicalCPU="10"
+	TotalVirtualMemory="26616"
+	TotalPhysicalMemory="16087"
+	LogicalProcessorsPerPhysical="1"
+	ProcessorClockFrequency="2918"
+	>
+	<Testing>
+		<StartDateTime>May 13 14:15 RTZ 2 ([NON-UTF-8-BYTE-0xE7][NON-UTF-8-BYTE-0xE8][NON-UTF-8-BYTE-0xEC][NON-UTF-8-BYTE-0xE0])</StartDateTime>
+		<StartTestTime>1747134935</StartTestTime>
+		<TestList>
+			<Test>./tests/ConverterJSON.getResponsesLimit</Test>
+		</TestList>
+		<Test Status="failed">
+			<Name>ConverterJSON.getResponsesLimit</Name>
+			<Path>./tests</Path>
+			<FullName>./tests/ConverterJSON.getResponsesLimit</FullName>
+			<FullCommandLine>C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\tests\GtestTests.exe "--gtest_filter=ConverterJSON.getResponsesLimit" "--gtest_also_run_disabled_tests"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0100922</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\tests\GtestTests.exe "--gtest_filter=ConverterJSON.getResponsesLimit" "--gtest_also_run_disabled_tests"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyVkkFv4jAQhe/+FaOeirpE2ytSDxVQ1KrLVkBPGCGTTIN3nZnIMynbf79OgqpSqVp2TjP2y/P77CwaIk8lVM7T5QBeIlcwHtlnwSh2OrETzpsKScX+eNs+RS6jq8TOIjptx1+YqxV0Md9vkUpPaHeND4XdFliLLZnLgIqiQ4n5h9F2Y9tt25OzPDdzVhzBrJPAKu3Aiw+KEW5gzPSKMfUPy5/zrERdoNRMgvLoK69mffNeG1gcia5BO5OW6NhL4xUzsx6+1wZmgXcu9PtIrz4ytbwgqMOm/iT+6HkSyqxh8TyHrjb/zNvQb+IDtYAJ+c750EQ046srwD851uqZ4OB1DwVKHn2/cLHaY/cFHJwAsQLXSFhkF6D72Np5Sh32EXdcvKXwAHe394/TyRmp4PIaKhmcCdyrQVldGJjzrlTTfzIsUtLTB/vqoSA6yk7PSTxPt8tlz/O908onyt7hGwQvigXsMPBh9F8XYUwyOapX0+XK/AWuKwsj====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>May 13 14:15 RTZ 2 ([NON-UTF-8-BYTE-0xE7][NON-UTF-8-BYTE-0xE8][NON-UTF-8-BYTE-0xEC][NON-UTF-8-BYTE-0xE0])</EndDateTime>
+		<EndTestTime>1747134935</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

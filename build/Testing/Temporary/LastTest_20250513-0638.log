@@ -1,0 +1,36 @@
+Start testing: May 13 14:15 RTZ 2 (çèìà)
+----------------------------------------------------------
+1/8 Testing: ConverterJSON.getResponsesLimit
+1/8 Test: ConverterJSON.getResponsesLimit
+Command: "C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/tests/GtestTests.exe" "--gtest_filter=ConverterJSON.getResponsesLimit" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/build/tests
+"ConverterJSON.getResponsesLimit" start time: May 13 14:15 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = ConverterJSON.getResponsesLimit
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ConverterJSON
+[ RUN      ] ConverterJSON.getResponsesLimit
+unknown file: Failure
+C++ exception with description "The file was not opened." thrown in the test body.
+[  FAILED  ] ConverterJSON.getResponsesLimit (1 ms)
+[----------] 1 test from ConverterJSON (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] ConverterJSON.getResponsesLimit
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"ConverterJSON.getResponsesLimit" end time: May 13 14:15 RTZ 2 (çèìà)
+"ConverterJSON.getResponsesLimit" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 13 14:15 RTZ 2 (çèìà)

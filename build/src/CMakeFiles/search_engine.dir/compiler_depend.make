@@ -354,6 +354,7 @@ src/CMakeFiles/search_engine.dir/invertedindex.cpp.obj: C:/Users/ED/Documents/My
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/sstream.tcc \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/std_abs.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/std_mutex.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/std_thread.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_algobase.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_bvector.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_construct.h \
@@ -371,7 +372,9 @@ src/CMakeFiles/search_engine.dir/invertedindex.cpp.obj: C:/Users/ED/Documents/My
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/streambuf_iterator.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/string_view.tcc \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stringfwd.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/this_thread_sleep.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/unique_lock.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/unique_ptr.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/uses_allocator.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/uses_allocator_args.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/utility.h \
@@ -414,6 +417,7 @@ src/CMakeFiles/search_engine.dir/invertedindex.cpp.obj: C:/Users/ED/Documents/My
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/string \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/string_view \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/system_error \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/thread \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/tuple \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/type_traits \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/typeinfo \
@@ -832,6 +836,7 @@ src/CMakeFiles/search_engine.dir/searchserver.cpp.obj: C:/Users/ED/Documents/My_
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/sstream.tcc \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/std_abs.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/std_mutex.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/std_thread.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_algobase.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_bvector.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_construct.h \
@@ -849,7 +854,9 @@ src/CMakeFiles/search_engine.dir/searchserver.cpp.obj: C:/Users/ED/Documents/My_
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/streambuf_iterator.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/string_view.tcc \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stringfwd.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/this_thread_sleep.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/unique_lock.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/unique_ptr.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/uses_allocator.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/uses_allocator_args.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/utility.h \
@@ -892,6 +899,7 @@ src/CMakeFiles/search_engine.dir/searchserver.cpp.obj: C:/Users/ED/Documents/My_
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/string \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/string_view \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/system_error \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/thread \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/tuple \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/type_traits \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/typeinfo \
@@ -1573,8 +1581,8 @@ C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/include/invertedin
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/std_mutex.h:
 
-C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/src/main.cpp:
-
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/std_thread.h:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/thread:
+
+C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/src/main.cpp:

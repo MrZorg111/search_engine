@@ -4,55 +4,46 @@
 #include <string>
 #include <thread>
 
-
 #include "converterjson.h"
 #include "invertedindex.h"
 #include "searchserver.h"
 
 
 int main() {
+    std::string stop_programm;
     ConverterJSON converter;
     InvertedIndex invertedIndex;
     
-    
-    std::string answer;
+    do {
     try {
+        converter.CheckConfig();
         std::cout << "\t\t\t\"The Search Engine-2000\" welcomes you\n\n\n";
         
         //Получим данные из файлов
         const auto documents = converter.GetTextDocument();
         const auto request_list = converter.GetRequests();
-        const auto limit = converter.GetResponsesLimit();
 
 
+        
         //Обработаем, создав карту слов с привязкой к документу
         //Используем несколько потоков 
-        invertedIndex.SetNumberDocument(documents.size());
-        std::vector<std::thread> threads;
-        
-        for(int i = 0; i < documents.size(); i++) {
-                threads.emplace_back(&InvertedIndex::UpdateDocumentBase, &invertedIndex, documents[i], i);
-            }
-        for (auto& thread : threads) {
-                thread.join();
-            }
-        
-        
+        invertedIndex.StartThread(documents);
         
         //Подготовим ответы на запрос
         //С выводом в консоль и записью в файл
         SearchServer searchserver(invertedIndex);
-        const auto prepared_query = searchserver.request_processing(request_list);
-        searchserver.console_answer(prepared_query);
-        const auto preparing_a = searchserver.search(prepared_query);
+        const auto tempo_name = searchserver.PreRequest(request_list);
+        const auto preparing_a = searchserver.Search(tempo_name);
         
  
         
         //Запишем ответ на запрос в файл
-        const auto ready_answer = searchserver.preparing_response(preparing_a, limit);
-        converter.putAnswer(ready_answer);
+        const auto ready_answer = searchserver.PreAnswer(preparing_a);
+        converter.PutAnswer(ready_answer);
     }
 
+    
+    
 
 
     catch (const MissingKey &x) {
@@ -62,7 +53,18 @@ int main() {
         std::cerr << x.what() << std::endl;
     }
     
-    
+    std::cout << "Stop the program? (yes/no)" << std::endl;
+    std::cin >> stop_programm;
+    if(stop_programm != "yes" && stop_programm != "no") {
+        std::cout << "" << std::endl;
+        stop_programm = "no";
+    }
+    else if(stop_programm == "no") {
+        invertedIndex.ClearFreqDictionary();
+    }
+
+    }while(stop_programm != "yes");
+
     return 0;
     
     

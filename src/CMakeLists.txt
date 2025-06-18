@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.21)
 
 set(Src
-	"converterJSON.cpp"
+	"converterjson.cpp"
 	"searchserver.cpp"
 	"invertedindex.cpp"
 	"main.cpp"

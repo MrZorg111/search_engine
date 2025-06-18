@@ -49,8 +49,8 @@ public:
     /*
         Положить в файл answer.json результаты поисковых запросов
     */
-    void putAnswer(const std::vector<std::vector<std::pair<int, float>>>& answers);
+    void PutAnswer(const std::vector<std::vector<std::pair<int, float>>>& answers);
 
     // Проверка наличия файла config.json перед запуском программы
-    bool CheckConfig();
+    void CheckConfig();
 };

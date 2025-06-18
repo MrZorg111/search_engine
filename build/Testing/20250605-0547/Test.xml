@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20250605-0547-Experimental"
+	Name="(empty)"
+	Generator="ctest-3.31.3"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Windows"
+	Hostname="DESKTOP-SQ2SR2G"
+	OSRelease=" Professional"
+	OSVersion=" (Build 19045)"
+	OSPlatform="AMD64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="10"
+	ModelName=""
+	ProcessorCacheSize="-1"
+	NumberOfLogicalCPU="16"
+	NumberOfPhysicalCPU="10"
+	TotalVirtualMemory="25303"
+	TotalPhysicalMemory="16087"
+	LogicalProcessorsPerPhysical="1"
+	ProcessorClockFrequency="2918"
+	>
+	<Testing>
+		<StartDateTime>Jun 05 13:36 RTZ 2 ([NON-UTF-8-BYTE-0xE7][NON-UTF-8-BYTE-0xE8][NON-UTF-8-BYTE-0xEC][NON-UTF-8-BYTE-0xE0])</StartDateTime>
+		<StartTestTime>1749119784</StartTestTime>
+		<TestList>
+			<Test>./tests/TestCaseInvertedIndex.TestInvertedIndexMissingWord</Test>
+		</TestList>
+		<Test Status="failed">
+			<Name>TestCaseInvertedIndex.TestInvertedIndexMissingWord</Name>
+			<Path>./tests</Path>
+			<FullName>./tests/TestCaseInvertedIndex.TestInvertedIndexMissingWord</FullName>
+			<FullCommandLine>C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\tests\GtestTests.exe "--gtest_filter=TestCaseInvertedIndex.TestInvertedIndexMissingWord" "--gtest_also_run_disabled_tests"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0062673</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\tests\GtestTests.exe "--gtest_filter=TestCaseInvertedIndex.TestInvertedIndexMissingWord" "--gtest_also_run_disabled_tests"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJylU8FO4zAQvfsr5kglEqUH9hAtSIiWqhIg1BZxqKvISaapkWNnPU6hWvHvxGmFCMquoEykyDMev3lvPJ7VWktdQCmkPhnA2poSrmL+QGiJj0d8ZLK6RO2I3+6Se2sKK0riE4vCefcJM8cJhc02CepCauRpLVXOkxwr4oUxhUKH5AKy2QeXt65fJb5ymGXszjiMYdKmwKLZgbVUDi2ct96VIJzqLVqH+VTn+BL6aCdyK4kaLY/G5mx5/m4rmB1EDsG1uF7kYU21dBiyZfBuK5gokwq130e9ldZo3wIgdEFdfUr+iNnLky1h9nAHra2OkfKz6/DsiHfAEx8Ls6qKh2cxXAupaots/FI1pzEH/FMLJd0OzBrcBglhK1SNFDMAi1Qrx7yWx43MNiAphr/NN/wVpDuHYFLPAX5HURBF0PMf9sYv4PW0D6U/+z8o8NqQw4OUr/A8psIS4PpyejMeHXejcBJBSYNvztH+FDjjhBqwr02sa0YhyM2z7r6Hf70DsEKH3TqN1PvL+XwvNWpzKew2YI9wCkqSH58UlXmOf9ojxhrcA8BiPF+wN9V6fas=</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Jun 05 13:36 RTZ 2 ([NON-UTF-8-BYTE-0xE7][NON-UTF-8-BYTE-0xE8][NON-UTF-8-BYTE-0xEC][NON-UTF-8-BYTE-0xE0])</EndDateTime>
+		<EndTestTime>1749119784</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

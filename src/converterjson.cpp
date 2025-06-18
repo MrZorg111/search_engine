@@ -3,7 +3,7 @@
 #include <fstream>
 
 //Проверка на наличие конфигурационного файла!
-bool ConverterJSON::CheckConfig() {
+void ConverterJSON::CheckConfig() {
     nlohmann::json dict;
     std::ifstream read_file_config;
     read_file_config.open(config_adress);
@@ -17,11 +17,7 @@ bool ConverterJSON::CheckConfig() {
         if(!dict.count("config")) {
             throw MissingKey();
         }
-        else {
-            return true;
-        }
     }
-    return false;
 }
 
 
@@ -111,13 +107,14 @@ std::vector<std::string> ConverterJSON::GetRequests() {
 }
 
 
-void ConverterJSON::putAnswer(const std::vector<std::vector<std::pair<int, float>>>& answers) {
+void ConverterJSON::PutAnswer(const std::vector<std::vector<std::pair<int, float>>>& answers) {
+    const auto limit = GetResponsesLimit();
     nlohmann::json dict;
     std::ofstream write_answer;
     write_answer.open(answer_adress);
     write_answer.clear();
     std::string request;
-    \
+    
     for(int i = 0; i < answers.size(); i++) {
         if(i <= 1000) {
             request = "request " + std::to_string(i);
@@ -132,7 +129,9 @@ void ConverterJSON::putAnswer(const std::vector<std::vector<std::pair<int, float
         else {
             dict["answers"][request]["result"] = true;
             for(const auto& it: answers[i]) {
-                dict["answers"][request]["relevance"].push_back({{"DocId", it.first}, {"relative", it.second}});
+                if(it.second != 0) {
+                    dict["answers"][request]["relevance"].push_back({{"DocId", it.first}, {"relative", it.second}});
+                }
             }
         }
         
