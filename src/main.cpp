@@ -2,7 +2,6 @@
 #include <nlohmann/json.hpp>
 #include <vector>
 #include <string>
-#include <thread>
 
 #include "converterjson.h"
 #include "invertedindex.h"
@@ -10,11 +9,9 @@
 
 
 int main() {
-    std::string stop_programm;
     ConverterJSON converter;
     InvertedIndex invertedIndex;
     
-    do {
     try {
         converter.CheckConfig();
         std::cout << "\t\t\t\"The Search Engine-2000\" welcomes you\n\n\n";
@@ -52,20 +49,6 @@ int main() {
     catch (const NotOpenFile &x) {
         std::cerr << x.what() << std::endl;
     }
-    
-    std::cout << "Stop the program? (yes/no)" << std::endl;
-    std::cin >> stop_programm;
-    if(stop_programm != "yes" && stop_programm != "no") {
-        std::cout << "" << std::endl;
-        stop_programm = "no";
-    }
-    else if(stop_programm == "no") {
-        invertedIndex.ClearFreqDictionary();
-    }
-
-    }while(stop_programm != "yes");
 
     return 0;
-    
-    
 }

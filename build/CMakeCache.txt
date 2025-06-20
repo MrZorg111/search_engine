@@ -330,15 +330,6 @@ FETCHCONTENT_UPDATES_DISCONNECTED_GOOGLETEST:BOOL=OFF
 //Git command line client
 GIT_EXECUTABLE:FILEPATH=P:/Git/cmd/git.exe
 
-//Value Computed by CMake
-GtestTests_BINARY_DIR:STATIC=C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/build/tests
-
-//Value Computed by CMake
-GtestTests_IS_TOP_LEVEL:STATIC=OFF
-
-//Value Computed by CMake
-GtestTests_SOURCE_DIR:STATIC=C:/Users/ED/Documents/My_Programs/Great_Project/search_engine/tests
-
 //Enable installation of googletest. (Projects embedding googletest
 // may want to turn this OFF.)
 INSTALL_GTEST:BOOL=ON

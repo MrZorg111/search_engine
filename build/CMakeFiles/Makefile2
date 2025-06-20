@@ -248,8 +248,8 @@ _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/clean:
 # Target rules for target _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir
 
 # All Build rule for target.
-_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/all: _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/all
 _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
+_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/all: _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googlemock\CMakeFiles\gmock_main.dir\build.make _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googlemock\CMakeFiles\gmock_main.dir\build.make _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build\CMakeFiles --progress-num=8,9 "Built target gmock_main"
@@ -377,8 +377,8 @@ src/CMakeFiles/search_engine.dir/clean:
 # Target rules for target tests/CMakeFiles/GtestTests.dir
 
 # All Build rule for target.
-tests/CMakeFiles/GtestTests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 tests/CMakeFiles/GtestTests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
+tests/CMakeFiles/GtestTests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f tests\CMakeFiles\GtestTests.dir\build.make tests/CMakeFiles/GtestTests.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests\CMakeFiles\GtestTests.dir\build.make tests/CMakeFiles/GtestTests.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\ED\Documents\My_Programs\Great_Project\search_engine\build\CMakeFiles --progress-num=1,2,3,4,5 "Built target GtestTests"
