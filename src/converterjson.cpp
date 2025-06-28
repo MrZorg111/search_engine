@@ -6,7 +6,7 @@
 void ConverterJSON::CheckConfig() {
     nlohmann::json dict;
     std::ifstream read_file_config;
-    read_file_config.open(config_adress);
+    read_file_config.open("config.json");
 
     if(!read_file_config.is_open()) {
         throw NotOpenFile();
@@ -27,7 +27,7 @@ std::vector<std::string> ConverterJSON::GetTextDocument() {
     nlohmann::json dict;
     std::ifstream read_file_doc, read_file_text;
     std::vector<std::string> text_doc;
-    read_file_doc.open(config_adress);
+    read_file_doc.open("config.json");
 
     if (read_file_doc.is_open()) {
         read_file_doc >> dict;
@@ -58,7 +58,7 @@ int ConverterJSON::GetResponsesLimit() {
     nlohmann::json dict;
     std::ifstream read_file_resp;
     int max_resp = 0;
-    read_file_resp.open(config_adress);
+    read_file_resp.open("config.json");
 
     if(read_file_resp.is_open()) {
         read_file_resp >> dict;
@@ -84,7 +84,7 @@ std::vector<std::string> ConverterJSON::GetRequests() {
     nlohmann::json dict;
     std::ifstream read_file_request;
     std::vector<std::string> requests;
-    read_file_request.open(request_adress);
+    read_file_request.open("request.json");
 
     if(read_file_request.is_open()) {
         read_file_request >> dict;
@@ -111,7 +111,7 @@ void ConverterJSON::PutAnswer(const std::vector<std::vector<std::pair<int, float
     const auto limit = GetResponsesLimit();
     nlohmann::json dict;
     std::ofstream write_answer;
-    write_answer.open(answer_adress);
+    write_answer.open("answer.json");
     write_answer.clear();
     std::string request;
     

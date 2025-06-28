@@ -21,10 +21,6 @@ class NotOpenFile: public std::exception {
 
 class ConverterJSON
 {
-    std::string config_adress = "include/config.json";
-    std::string request_adress = "include/request.json";
-    std::string answer_adress = "include/answer.json";
-
     
 public:
     ConverterJSON() = default;
