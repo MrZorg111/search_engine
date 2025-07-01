@@ -27,7 +27,7 @@ public:
     InvertedIndex() = default;
 
     //Обновить или заполнить базу документов, по которой будем совершать поиск,
-    void UpdateDocumentBase(std::string input_docs, int num_doc);
+    void UpdateDocumentBase(const std::string& input_docs, int num_doc);
 
     void StartThread(const std::vector<std::string>& documents);
     //Метод определяет кол-во вхождений искомого слова в загруженной базе документов.

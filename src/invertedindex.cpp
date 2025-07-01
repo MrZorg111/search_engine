@@ -17,7 +17,7 @@ void InvertedIndex::StartThread(const std::vector<std::string>& documents) {
         }
 }
 
-void InvertedIndex::UpdateDocumentBase(std::string input_docs, int num_doc) {
+void InvertedIndex::UpdateDocumentBase(const std::string& input_docs, int num_doc) {
     docs.push_back(input_docs);
     bool flag = true;
     std::string word;
